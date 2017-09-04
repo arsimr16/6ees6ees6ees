@@ -1,10 +1,10 @@
 class RetiredForagerBee extends ForagerBee {
   constructor() {
-    super();
+    super()
     this.age = 40;
-    this.color = 'grey';
     this.job = 'gamble';
     this.canFly = false;
+    this.color = 'grey';
   }
 
   forage() {

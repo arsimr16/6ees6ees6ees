@@ -1,6 +1,6 @@
 class HoneyMakerBee extends Bee {
   constructor() {
-    super();
+    super()
     this.age = 10;
     this.job = 'make honey';
     this.honeyPot = 0;
@@ -13,4 +13,4 @@ class HoneyMakerBee extends Bee {
   giveHoney() {
     this.honeyPot--;
   }
-}
+};
